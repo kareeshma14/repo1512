@@ -11,7 +11,8 @@ pipeline {
     stages {
         stage("build"){
             steps{
-                sh 'mvn clean deploy'
+                sh 'mvn deploy -DaltDeploymentRepository=your-repo-id::default::http://your-repo-url
+'
             }
         }
     }
