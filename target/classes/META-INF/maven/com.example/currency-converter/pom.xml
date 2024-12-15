@@ -6,6 +6,17 @@
     <groupId>com.example</groupId>
     <artifactId>currency-converter</artifactId>
     <version>1.0-SNAPSHOT</version>
+    <distributionManagement>
+    <repository>
+        <id>your-repo-id</id>
+        <url>http://your-repo-url</url>
+    </repository>
+    <snapshotRepository>
+        <id>your-snapshot-repo-id</id>
+        <url>http://your-snapshot-repo-url</url>
+    </snapshotRepository>
+</distributionManagement>
+
 
     <dependencies>
         <dependency>
